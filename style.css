@@ -1,32 +1,28 @@
 /* General Body Styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4; /* Light gray background for contrast */
     margin: 0;
     padding: 0;
 }
 
 /* Header Styling */
 header {
-    background-color: #69adf1;
+    background-color: #69adf1; /* Light blue background */
     color: white;
     text-align: center;
     padding: 20px;
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
 /* Navigation Bar Styling */
 nav {
-    background-color: #000000;
+    background-color: #000000; /* Black background */
     padding: 10px;
     text-align: center;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style-type:none;
     margin: 0;
     padding: 0;
 }
@@ -42,34 +38,110 @@ nav ul li a {
     font-size: 1.2em;
 }
 
-/* Hover effect on Navigation Links */
 nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Section Styling */
+/* Styling for INLS Sections */
 section {
-    background-color: white;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #fef7f7, #e6f7ff); /* Gradient background (white to light blue) */
+    border: 3px solid #69adf1; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 20px auto; /* Vertical margin and center alignment */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 80%; /* Responsive width */
+    max-width: 800px; /* Maximum width */
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.15)); /* Drop shadow filter */
+    box-sizing: border-box; /* Include padding and border in width */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
 
-/* Section Titles */
+/* Hover Effect for INLS Sections */
+section:hover {
+    transform: scale(1.04); /* Slight zoom effect */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Section Headings */
 section h2 {
-    color: #2b547d;
+    color: #2b547d; /* Dark blue text color */
     font-size: 1.8em;
     margin-bottom: 10px;
 }
 
+/* Section Paragraphs */
+section p {
+    line-height: 1.2; 
+    font-size: 1.2em;
+    color: #332; /
+}
+
 /* Footer Styling */
 footer {
-    background-color: #2c3e50;
+    background-color: #2c3e50; /* Dark background */
     color: white;
     text-align: center;
-    padding: px;
-    position: fixed;
+    padding: 10px;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+/* General Body Styling */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #69adf1; /* Light blue background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Apply Google Font to Header Text */
+header h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  /* Apply the Silkscreen font */
+    font-size: 2em; /* Increase font size for visibility */
+    margin: 0;
+    padding: 12px;
+}
+/* General Styling for Section Titles */
+section h2 {
+    font-family: 'Press Start 2P', cursive; /* Apply the standout font */
+    font-size: 1.4em; /* Adjust font size for better readability */
+    color: #2b547d; /* Dark blue for a bold look */
+    text-align: center; /* Center-align the titles */
+    text-transform: uppercase; /* Make titles uppercase */
+    margin-bottom: 25px; /* Add some spacing below the title */
+}
+
+/* Optional: Add a hover effect for the titles */
+section h2:hover {
+    color: #69adf1; /* Light blue when hovered */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+   /* General Styling for Paragraph and Links */
+body {
+    font-family: broad, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #0a70d6; /* Light gray background */
+    color: #333; /* Dark gray text for readability */
 }
